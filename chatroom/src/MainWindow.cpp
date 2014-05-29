@@ -42,7 +42,7 @@ void MainWindow::createMainWeiget()
 	setCentralWidget(mainSplitter);
 	setWindowIcon(QIcon(":/res/images/logo.png"));
 	resize(800, 550);
-    setWindowTitle(tr("chatroom"));
+    setWindowTitle(tr("kakaotalk"));
 }
 
 void MainWindow::closeEvent(QCloseEvent *event)
